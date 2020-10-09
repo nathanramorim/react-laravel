@@ -11,3 +11,4 @@
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
+<!-- as views estão localizadas na pasta resources/js/src/views -->
