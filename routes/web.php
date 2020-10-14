@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::fallback(function () {
     return view('react-app');
 });
+
+Route::prefix("courses")->group(function () {
+    Route::get("/", "App\\Http\\Controllers\\CoursesController@index");
+});
